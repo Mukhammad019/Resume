@@ -1,0 +1,235 @@
+.content {
+    margin-top: 11%;
+    margin-left: 18%;
+    color: white;
+    display: flex;
+    gap: 12%;
+}
+
+.img {
+    img {
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    img:hover {
+        width: 500px;
+        height: 450px;
+        border-radius: 20%;
+        transition: all 350ms;
+    }
+
+    img:not(:hover) {
+        transition: all 350ms;
+    }
+}
+
+.text {
+    width: 548px;
+    height: 200px;
+
+    .name {
+        font-size: 22px;
+    }
+
+    .front {
+        color: rgba($color: orange, $alpha: 1.0);
+    }
+
+    .react {
+        color: blue;
+    }
+
+    .react:hover {
+        border-bottom: 1px blue solid;
+        transition: all 200ms;
+    }
+
+    .react:not(:hover) {
+        transition: all 200ms;
+    }
+
+    .exp {
+        border-bottom: 1px solid;
+    }
+
+    .sozd {
+        margin-top: 20px;
+    }
+
+    .stek {
+        margin-top: 20px;
+
+        .co:hover {
+            border-bottom: 1px solid;
+            transition: all 200ms;
+        }
+
+        .co:not(:hover) {
+            transition: all 200ms;
+        }
+
+        a {
+            font-size: 20px;
+        }
+
+        .js {
+            color: rgb(216, 194, 3);
+        }
+    
+        .js:hover {
+            border-bottom: 1px yellow solid;
+            transition: all 200ms;
+        }
+    
+        .js:not(:hover) {
+            transition: all 200ms;
+        }
+
+        .html {
+            color: rgb(255, 85, 0);
+        }
+    
+        .html:hover {
+            border-bottom: 1px orange solid;
+            transition: all 350ms;
+        }
+    
+        .html:not(:hover) {
+            transition: all 350ms;
+        }
+
+        .css {
+            color: rgb(0, 111, 202);
+        }
+    
+        .css:hover {
+            border-bottom: 1px rgb(0, 111, 202) solid;
+            transition: all 350ms;
+        }
+    
+        .css:not(:hover) {
+            transition: all 350ms;
+        }
+
+        .rct {
+            color: blue;
+        }
+    
+        .rct:hover {
+            border-bottom: 1px blue solid;
+            transition: all 350ms;
+        }
+    
+        .rct:not(:hover) {
+            transition: all 350ms;
+        }
+
+        .rrd {
+            color: rgb(255, 123, 0);
+        }
+    
+        .rrd:hover {
+            border-bottom: 1px rgb(255, 123, 0) solid;
+            transition: all 350ms;
+        }
+    
+        .rrd:not(:hover) {
+            transition: all 350ms;
+        }
+
+        .red {
+            color: rgb(252, 4, 223);
+        }
+    
+        .red:hover {
+            border-bottom: 1px rgb(252, 4, 223) solid;
+            transition: all 200ms;
+        }
+    
+        .red:not(:hover) {
+            transition: all 200ms;
+        }
+
+        .rt {
+            color: rgb(252, 4, 223);
+        }
+    
+        .rt:hover {
+            border-bottom: 1px rgb(252, 4, 223) solid;
+            transition: all 200ms;
+        }
+    
+        .rt:not(:hover) {
+            transition: all 200ms;
+        }
+
+        .git {
+            color: rgb(255, 85, 0);
+        }
+    
+        .git:hover {
+            border-bottom: 1px rgb(255, 85, 0) solid;
+            transition: all 200ms;
+        }
+    
+        .git:not(:hover) {
+            transition: all 200ms;
+        }
+
+        .nd {
+            color: green;
+        }
+    
+        .nd:hover {
+            border-bottom: 1px green solid;
+            transition: all 200ms;
+        }
+    
+        .nd:not(:hover) {
+            transition: all 200ms;
+        }
+
+        .boot {
+            color: rgb(0, 145, 255);
+        }
+    
+        .boot:hover {
+            border-bottom: 1px rgb(0, 145, 255) solid;
+            transition: all 200ms;
+        }
+    
+        .boot:not(:hover) {
+            transition: all 200ms;
+        }
+
+        .sc {
+            color: rgb(255, 0, 212);
+        }
+    
+        .sc:hover {
+            border-bottom: 1px rgb(255, 0, 212) solid;
+            transition: all 200ms;
+        }
+    
+        .sc:not(:hover) {
+            transition: all 200ms;
+        }
+
+        .tail {
+            color: rgb(0, 94, 255);
+        }
+    
+        .tail:hover {
+            border-bottom: 1px rgb(0, 94, 255) solid;
+            transition: all 200ms;
+        }
+    
+        .tail:not(:hover) {
+            transition: all 200ms;
+        }
+    }
+}
+

@@ -1,0 +1,18 @@
+.content {
+    color: white;
+    margin-left: 35%;
+    margin-top: 10%;
+    display: inline-block;
+
+    .count {
+        font-size: 50px;
+
+    }
+
+    .btns {
+        display: flex;
+        margin-left: 10px;
+        gap: 80px;
+        font-size: 40px;
+    }
+}
