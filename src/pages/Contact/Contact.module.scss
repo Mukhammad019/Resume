@@ -1,47 +1,112 @@
 .content {
     color: white;
+    margin-left: 500px;
+    margin-top: 200px;
     display: flex;
-    margin-top: 250px;
-    margin-left: 400px;
-    gap: 20px;
-    font-size: 50px;
 
-    a {
-        border: 1px solid;
-        border-radius: 15px;
-        padding: 10px;
-        display: flex;
-        gap: 30px;
-        align-items: center;
+    .right {
+        font-size: 50px;
+        padding: 20px;
 
-        span {
-            margin-bottom: 10px;
+        .tg:hover {
+            color: rgb(0, 195, 255);
+            transition: all 350ms;
+        }
+
+        .tg:not(:hover) {
+            transition: all 350ms;
         }
     }
 
-    a:first-child:hover {
-        background-color: rgba($color: rgb(185, 4, 158), $alpha: 1.0);
-        transition: all 350ms;
-        border: solid 1px rgba($color: rgb(185, 4, 158), $alpha: 1.0);
+    .left {
+        border-right: 1px solid;
+        padding: 20px;
     }
 
-    a:first-child:not(:hover) {
-        transition: all 350ms;
+    .mail {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 30px;
     }
 
-    a:last-child:hover {
-        background-color: rgba($color: rgb(6, 63, 187), $alpha: 1.0);
-        transition: all 350ms;
-        border: solid 1px rgba($color: rgb(6, 63, 187), $alpha: 1.0);
+    .phone {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 30px;
     }
 
-    .tg:hover {
-        background-color: rgba($color: rgb(5, 151, 231), $alpha: 1.0);
-        transition: all 350ms;
-        border: solid 1px rgba($color: rgb(5, 151, 231), $alpha: 1.0);
+    .inst {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 30px;
     }
 
-    .tg:not(:hover) {
+    .vk {
+        margin-top: 35px;
+        font-size: 40px;
+        border: 1px solid;
+        border-radius: 20%;
+        padding: 4px;
+    }
+
+    .vk:hover {
+        background-color: blue;
+        transition: all 350ms;
+        border: 1px solid blue;
+    }
+
+    .vk:not(:hover) {
         transition: all 350ms;
     }
 }
+
+//     display: flex;
+//     margin-top: 250px;
+//     margin-left: 400px;
+//     gap: 20px;
+//     font-size: 50px;
+
+//     a {
+//         border: 1px solid;
+//         border-radius: 15px;
+//         padding: 10px;
+//         display: flex;
+//         gap: 30px;
+//         align-items: center;
+
+//         span {
+//             margin-bottom: 10px;
+//         }
+//     }
+
+//     a:first-child:hover {
+//         background-color: rgba($color: rgb(185, 4, 158), $alpha: 1.0);
+//         transition: all 350ms;
+//         border: solid 1px rgba($color: rgb(185, 4, 158), $alpha: 1.0);
+//     }
+
+//     a:first-child:not(:hover) {
+//         transition: all 350ms;
+//     }
+
+//     a:last-child:hover {
+//         background-color: rgba($color: rgb(6, 63, 187), $alpha: 1.0);
+//         transition: all 350ms;
+//         border: solid 1px rgba($color: rgb(6, 63, 187), $alpha: 1.0);
+//     }
+
+//     .tg:hover {
+//         background-color: rgba($color: rgb(5, 151, 231), $alpha: 1.0);
+//         transition: all 350ms;
+//         border: solid 1px rgba($color: rgb(5, 151, 231), $alpha: 1.0);
+//     }
+
+//     .tg:not(:hover) {
+//         transition: all 350ms;
+//     }
+// }
+
+
