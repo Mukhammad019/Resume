@@ -26,7 +26,7 @@ const Home = () => {
           , в связке с разными библиотеками. Опыт работы: <span className={s.exp}>1 год 8 месяцев.</span>
           <p className={s.sozd}>
             | Создание React приложений, разработка функциональных компонентов;
-            <p>| Работа с Git, GitHub;</p>
+            <p>| Работа с Git/GitHub;</p>
             <p>| Работа с Redux/Redux-Toolkit;</p>
             <p>| Работа с препроцессором Sass;</p>
             <p>| Разработка функционала на JavaScript;</p>
