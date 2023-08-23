@@ -12,18 +12,20 @@
         height: 350px;
         border-radius: 50%;
         object-fit: cover;
+
+        &:hover {
+            width: 500px;
+            height: 450px;
+            border-radius: 20%;
+            transition: all 350ms;
+        }
+    
+        &:not(:hover) {
+            transition: all 350ms;
+        }
     }
 
-    img:hover {
-        width: 500px;
-        height: 450px;
-        border-radius: 20%;
-        transition: all 350ms;
-    }
-
-    img:not(:hover) {
-        transition: all 350ms;
-    }
+    
 }
 
 .text {
@@ -40,16 +42,18 @@
 
     .react {
         color: blue;
+
+        &:hover {
+            border-bottom: 1px blue solid;
+            transition: all 200ms;
+        }
+    
+        &:not(:hover) {
+            transition: all 200ms;
+        }
     }
 
-    .react:hover {
-        border-bottom: 1px blue solid;
-        transition: all 200ms;
-    }
 
-    .react:not(:hover) {
-        transition: all 200ms;
-    }
 
     .exp {
         border-bottom: 1px solid;
