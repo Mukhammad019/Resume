@@ -24,7 +24,7 @@ const Home = () => {
             ⚛ React
           </a>
           , в связке с разными библиотеками. Опыт работы:{" "}
-          <span className={s.exp}>2 года 1 месяц.</span>
+          <span className={s.exp}>2 года 1 месяц</span>
           <p className={s.sozd}>
             | Создание React приложений, разработка функциональных компонентов;
             <p>| Работа с Git/GitHub;</p>
