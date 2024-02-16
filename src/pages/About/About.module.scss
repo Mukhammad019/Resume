@@ -79,6 +79,15 @@
             font-size: 20px;
         }
 
+        .ts:hover {
+            border-bottom: 1px white solid;
+            transition: all 200ms;
+        }
+    
+        .ts:not(:hover) {
+            transition: all 200ms;
+        }
+
         .js {
             color: rgb(216, 194, 3);
         }
@@ -141,6 +150,19 @@
         }
     
         .rrd:not(:hover) {
+            transition: all 350ms;
+        }
+
+        .mui {
+            color: rgb(0, 13, 255);
+        }
+    
+        .mui:hover {
+            border-bottom: 1px rgb(0, 13, 255) solid;
+            transition: all 350ms;
+        }
+    
+        .mui:not(:hover) {
             transition: all 350ms;
         }
 
