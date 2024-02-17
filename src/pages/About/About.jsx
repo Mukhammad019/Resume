@@ -13,7 +13,7 @@ const Home = () => {
       </div>
       <div className="animate__animated animate__fadeInRight">
         <div className={s.text}>
-          <span className={s.name}>Косумов Магомед.</span> 19 лет.{" "}
+          <span className={s.name}>Косумов Магомед.</span> 20 лет.{" "}
           <span className={s.front}>Frontend</span>-разработчик. Занимаюсь
           разработкой на базе фреймворка{" "}
           <a
